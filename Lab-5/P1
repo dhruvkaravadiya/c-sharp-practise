@@ -1,0 +1,16 @@
+// Write a program using method overloading by changing datatype of
+// arguments to perform addition of two integer numbers and two float
+// numbers
+class Program{
+    public static void addTwo(int a , int b){  
+        Console.WriteLine("Int Sum : "+(a+b));
+    }
+    public static void addTwo(double a , double b){
+        Console.WriteLine("Double Sum : "+(a+b));
+    }
+    public static void Main(string[] args)
+    {
+        addTwo(2,3);
+        addTwo(2.2,3.3);
+    }
+}
